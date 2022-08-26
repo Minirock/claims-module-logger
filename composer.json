@@ -1,0 +1,19 @@
+{
+  "name": "claims/module-logger",
+  "description": "N/A",
+  "version": "0.1.0",
+  "require": {
+    "php": "~7.3.0||~7.4.0",
+    "magento/framework": "*",
+    "aims/magento2-module-setup-util": "0.2.*"
+  },
+  "type": "magento2-module",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Aims\\Logger\\": ""
+    }
+  }
+}
